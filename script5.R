@@ -86,4 +86,4 @@ midwest_p123$ex4 <- ifelse(midwest_p123$total_asian_mean > 0.4872462, "large","s
 table(midwest_p123$ex4)
 qplot(midwest_p123$ex4) #ex5
 
-
+exam <- read.csv("cvs_exam.csv")
