@@ -72,9 +72,9 @@ wordcloud(words = df_word$word, # 단어
           colors = pal) # 색깔 목
 
 ########################################################
-twitter <- read.csv("twitter2.csv")
+#twitter <- read.csv("twitter2.csv")
 #txt <- readLines(file("hiphop.txt", encoding = "UTF-8"))
-#twitter <- read.csv(file("twitter.csv", encoding = "UTF-8"))
+twitter <- read.csv("twitter.csv",header = T, encoding = "UTF-8")
 
 twitter <- rename(twitter,
                   no = 번호,
